@@ -1,0 +1,21 @@
+{
+ "firstName": "Vadim",
+ "lastName": "Gilyuk",
+ "languages": [
+  {
+   "title": "JavaScript", "level": "Junior"
+  },
+  {
+   "title": "PHP", "level": "Junior"
+  },
+  {
+   "title": "C#", "level": "Junior"
+  },
+  {
+   "title": "Javascript", "level": "Junior"
+  },
+  {
+   "title": "Laravel", "level": "Junior"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<nav class="one">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="/weather/Zhytomyr">Weather</a></li>
+    </ul>
+</nav>
+    <div class="big">
+        <div class="p"><p class="page">Сервіс погоди</p></div>
+        <div class="b"><a href="/weather/Zhytomyr"><button class="but">Сторінка погоди</button></a></div>
+    </div>
+</body>
+<style>
+    .big {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        border-radius: 10px;
+        padding: 20px;
+        width: 1500px;
+        margin: 0 auto;
+        height: 100px;
+        align-items: center;
+    }
+    .p{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        vertical-align: top;
+    }
+    .b{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+    .page{
+        font-size: 30px;
+        margin: 50px;
+    }
+    .but{
+        width: 250px;
+        height: 70px;
+        border: none;
+        font-size: 16px;
+        text-align: center;
+        justify-items: center;
+        border-radius: 10px;
+        background-color: #1ce737;
+    }
+    .but:hover {
+        background-color: #35d718;
+    }
+
+    .but:active {
+        background-color: blue;
+        color: white;
+    }
+    ul {
+        list-style: none;
+        margin: 0 0 0 0;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Lora', serif;
+        transition: .5s linear;
+    }
+
+    .one {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    .one ul {
+        padding: 1em 0;
+        background: #6c985b;
+    }
+
+    .one a {
+        padding: 1em;
+        background: rgb(96, 173, 83);
+        color: #000000;
+    }
+
+    .one a:hover {
+        background: #4f9648;
+        color: black
+    }
+
+    .one li {
+        display: inline;
+        margin: 0 20px 0 20px;
+    }
+    body {
+        margin: 0;
+    }
+</style>
+</html>
